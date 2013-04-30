@@ -1,36 +1,61 @@
 function init(){
-	
-	
+		
 	$("#gco2").click(function(){
 		$('#myModal').modal('show');
 	});
+	
+	graph();
+}
+
+
+function set_popover(){
 	$("#gco2").mouseover(function(){
 		$(this).popover('show');
 	});
 	$("#gco2").mouseout(function(){
 		$(this).popover('hide');
 	});
-
 	$("#coal").mouseover(function(){
 		$(this).popover('show');
 	});
 	$("#coal").mouseout(function(){
 		$(this).popover('hide');
 	});
-
 	$("#factory").mouseover(function(){
 		$(this).popover('show');
 	});
 	$("#factory").mouseout(function(){
 		$(this).popover('hide');
 	});
-	graph();
+	$("#hot").mouseover(function(){
+		$(this).popover('show');
+	});
+	$("#hot").mouseout(function(){
+		$(this).popover('hide');
+	});
+	$("#retired").mouseover(function(){
+		$(this).popover('show');
+	});
+	$("#retired").mouseout(function(){
+		$(this).popover('hide');
+	});
+	$("#radio1").mouseover(function(){
+		$(this).popover('show');
+	});
+	$("#radio1").mouseout(function(){
+		$(this).popover('hide');
+	});
+	$("#can").mouseover(function(){
+		$(this).popover('show');
+	});
+	$("#can").mouseout(function(){
+		$(this).popover('hide');
+	});	
 }
-
 function graph(){
-	var margin = {top: 20, right: 20, bottom: 30, left: 0},
+	var margin = {top: 20, right: 20, bottom: 30, left: 50},
     width = 640 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    height = 390 - margin.top - margin.bottom;
 
 	var x = d3.scale.ordinal()
 	    .rangeRoundBands([0, width], .1);
