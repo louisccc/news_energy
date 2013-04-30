@@ -1,62 +1,122 @@
 #radio{
-	width: 90%;
+	width: 120%;
 	height: 500px;
 }
 
 #radio #coal{
 	position: absolute;
     display:block;
+    margin-top: 140px;
+    width:160px;
+    height:160px;
+}
+#radio #coal:hover{
+	cursor:pointer;
+	width:165px;
+	height:165px;
+}
 
-    width:200px;
-    height:200px;
+#radio #factory{
+	position: absolute;
+    display:block;
+
+    margin-top:140px;
+    margin-left: 200px;
+    width:160px;
+    height:160px;
+}
+#radio #factory:hover{
+	cursor:pointer;
+	width:165px;
+	height:165px;
 }
 
 #radio #can{
 	position: absolute;
     display:block;
 
-    margin-left: 250px;
-    width:200px;
-    height:200px;
+    margin-top: 145px;
+    margin-left: 390px;
+    
+    width:160px;
+    height:160px;
+}
+#radio #can:hover{
+	cursor:pointer;
+	width:165px;
+	height:165px;
 }
 
 #radio #gco2{
 	position: absolute;
 	display: block;
 
-	margin-left: 250px;
-	margin-top: 250px;
-	width: 200px;
-	height: 200px;
+	margin-top: 300px;
+	margin-left: 120px;
+	width: 160px;
+	height: 160px;
 }
+#radio #gco2:hover{
+	cursor:pointer;
+	width:165px;
+	height:165px;
+}
+
 #radio #factory{
 	position: absolute;
     display:block;
 
-    margin-left: 500px;
-    width:200px;
-    height:200px;
-}
-
-#radio #coal:hover{
-	cursor:pointer;
-	width:210px;
-	height:210px;
-}
-
-#radio #can:hover{
-	cursor:pointer;
-	width:210px;
-	height:210px;
+    margin-top: 140px;
+    margin-left: 200px;
+    width:160px;
+    height:160px;
 }
 #radio #factory:hover{
 	cursor:pointer;
-	width:210px;
-	height:210px;
-}
-#radio #gco2:hover{
-	cursor:pointer;
-	width:210px;
-	height:210px;
+	width:165px;
+	height:165px;
 }
 
+#radio #hot{
+	position: absolute;
+    display:block;
+
+    margin-top: -20px;
+    margin-left: 200px;
+    width:160px;
+    height:160px;
+}
+#radio #hot:hover{
+	cursor:pointer;
+	width:165px;
+	height:165px;
+}
+
+#radio #radio1{
+	position: absolute;
+    display:block;
+
+    margin-top: 300px;
+	margin-left: 300px;
+	width: 160px;
+	height: 160px;
+}
+#radio #radio1:hover{
+	cursor:pointer;
+	width:165px;
+	height:165px;
+}
+#radio #retired{
+	position: absolute;
+    display:block;
+
+    margin-top: 140px;
+    margin-left: 600px;
+    width:160px;
+    height:160px;
+}
+#radio #retired:hover{
+	cursor:pointer;
+	width:165px;
+	height:165px;
+}
