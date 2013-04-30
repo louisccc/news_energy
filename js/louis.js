@@ -3,7 +3,7 @@ function init(){
 	$("#gco2").click(function(){
 		$('#myModal').modal('show');
 	});
-	
+	set_popover();
 	graph();
 }
 
