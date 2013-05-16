@@ -97,7 +97,7 @@ function animated_graph(){
 	                 .attr("height", function(d) { return d; } );
 
  	x.domain(["核能", "煤礦", "天然氣", "石油", "風力", "水力", "太陽能"]);
-	y.domain([0, 6000]);
+	y.domain([0, 1000]);
 
 	chart.append("g")
 	  	.attr("class", "x axis")
